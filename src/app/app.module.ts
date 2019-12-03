@@ -14,8 +14,10 @@ import { NotesService } from './notes.service';
 
 
 @NgModule({
-  declarations: [ HeaderComponent,AppComponent ],
-  imports: [ HttpClientModule,BrowserModule,MatToolbarModule,MatExpansionModule,MatFormFieldModule,BrowserAnimationsModule,MatInputModule,FormsModule,MatCardModule],
+  declarations: [ HeaderComponent, AppComponent ],
+  imports: [ HttpClientModule, BrowserModule ,
+             MatToolbarModule, MatExpansionModule, MatFormFieldModule,
+             BrowserAnimationsModule, MatInputModule, FormsModule, MatCardModule ],
   providers: [ NotesService ],
   bootstrap: [ AppComponent ]
 })
