@@ -14,11 +14,11 @@ export class NotesService {
 
   }
   getNotes(): Observable<Note[]> {
-   return this.httpclient.get<Note[]>(' http://localhost:3000/notes');
+   return this.httpclient.get<Note[]>('http://localhost:3000/notes');
   }
 
   addNote(note: Note): Observable<Note> {
-   return this.httpclient.post<Note>(' http://localhost:3000/notes',note);
+   return this.httpclient.post<Note>('http://localhost:3000/notes',note);
   }
 
 }
