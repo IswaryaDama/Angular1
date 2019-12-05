@@ -3,8 +3,6 @@ import { Observable } from 'rxjs/Observable';
 import {HttpClient} from '@angular/common/http';
 import { Note } from './note';
 import { HttpErrorResponse } from '@angular/common/http/src/response';
-import 'rxjs/add/operator/catch';
-import 'rxjs/add/observable/empty';
 
 @Injectable(
 )

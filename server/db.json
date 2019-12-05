@@ -6,24 +6,9 @@
       "text": "Shall do at 6 pm"
     },
     {
-      "title": "Java",
-      "text": "Java is object Oriented Language",
-      "id": 2
-    },
-    {
-      "title": "Spring",
-      "text": "Spring is MVC based Framework",
-      "id": 3
-    },
-    {
-      "title": "springboot",
-      "text": "will start next week",
-      "id": 4
-    },
-    {
       "title": "Read Angular 5 blog",
       "text": "Shall do at 6 pm",
-      "id": 5
+      "id": 2
     }
   ]
 }
